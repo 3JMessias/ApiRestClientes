@@ -10,7 +10,7 @@ public interface ClienteDAO {
 
     boolean alterar(Long id, Cliente cliente);
 
-    List<Cliente> listaTodos();
+    List<Cliente> listarTodos();
 
     boolean buscaPorId(Cliente cliente);
 
